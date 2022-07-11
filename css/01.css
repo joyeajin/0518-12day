@@ -3,7 +3,7 @@
     margin: auto;
 }
 .header{
-    background-image: url(/images/main_img02.png);
+    background-image: url(./images/main_img02.png);
     background-size: cover;
     height: 40vw;
 }
@@ -84,7 +84,7 @@
 @media screen and (max-width:360px){
     .header{
         height: 140vw;
-        background-image: url(/images/main_img02.png);
+        background-image: url(./images/main_img02.png);
         background-size: 220vw;
     }
     .header>h1{
