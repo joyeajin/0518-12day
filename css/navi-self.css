@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.inner{
+    width: 1200px;
+    margin: auto;
+}
+.header-bottom{
+    height: 100px;
+    background-color: rgb(149, 251, 76);
+    padding-top: 40px;
+    transition: height 0.35s;
+
+    overflow: hidden;
+}
+.header-bottom:hover{
+    height: 250px;
+}
+.header-bottom .inner{
+    display: flex;
+    justify-content: space-between;
+}
+.header-bottom h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.nav{
+    display: flex;
+}
+.dep1{
+    margin-left: 70px;
+}
+.dep2{
+    margin-top: 70px;
+}
+.dep2 li{
+    padding-bottom: 20px;
+}
